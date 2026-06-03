@@ -27,6 +27,7 @@ pub fn project_list(props: &Props) -> Html {
                             html! {}
                         }}
                         <div class="project-stats">
+                            <span class="hotness-badge">{ format!("🔥 热度 {}", p.hotness) }</span>
                             <span>{ format!("⭐ {}", p.stars) }</span>
                             <span>{ format!("🍴 {}", p.forks) }</span>
                             <span>{ format!("📋 {}", p.open_issues) }</span>
