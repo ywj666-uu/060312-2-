@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo build *)",
+      "Bash(rustup show *)",
+      "Bash(rustup default *)",
+      "Bash(where *)",
+      "Bash(dir \"C:\\\\mingw*\")",
+      "Bash(dir \"C:\\\\msys*\")",
+      "Bash(dir \"C:\\\\tools\\\\mingw*\")",
+      "Bash(dir \"C:\\\\Program Files\\\\Microsoft Visual Studio\")",
+      "Bash(dir \"C:\\\\Program Files \\(x86\\)\\\\Microsoft Visual Studio\")",
+      "Bash(dir \"C:\\\\Program Files \\(x86\\)\\\\Windows Kits\")",
+      "Bash(dir \"C:\\\\BuildTools\")",
+      "Bash(reg query *)",
+      "Bash(rustup target *)",
+      "Bash(rustup component *)",
+      "Bash(dir *)",
+      "Bash(winget list *)"
+    ]
+  }
+}

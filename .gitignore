@@ -44,6 +44,20 @@ build/
 Build/
 build-*/
 
+# Rust / Cargo
+/target
+/backend/target
+/frontend/target
+/frontend/dist
+
+# Database
+*.db
+*.db-wal
+*.db-shm
+
+# Environment
+.env
+
 # CMake generated files
 CMakeFiles/
 CMakeCache.txt

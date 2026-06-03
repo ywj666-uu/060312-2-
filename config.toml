@@ -1,0 +1,6 @@
+database_path = "./data.db"
+server_host = "127.0.0.1"
+server_port = 8080
+sync_interval_seconds = 3600
+frontend_dist_path = "./frontend/dist"
+github_api_base_url = "https://api.github.com"
